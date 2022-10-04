@@ -1,0 +1,85 @@
+.formParent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 8rem;
+  gap: 3rem;
+}
+.text {
+  width: 28rem;
+  height: 6rem;
+  border-width: 0 0 1px 0;
+  font-size: 2rem;
+  background-clip: text;
+}
+.name {
+  width: 28rem;
+  border-width: 0 0 1px 0;
+  font-size: 2rem;
+  background-clip: text;
+}
+.email {
+  width: 28rem;
+  border-width: 0 0 1px 0;
+  font-size: 2rem;
+  background-clip: text;
+}
+.text:focus {
+  outline: none;
+}
+.email:focus {
+  outline: none;
+}
+.name:focus {
+  outline: none;
+}
+
+.email::placeholder {
+  color: red;
+  font-size: 2rem;
+  opacity: 0.4;
+}
+.name::placeholder {
+  color: red;
+  font-size: 2rem;
+  opacity: 0.4;
+}
+.text::placeholder {
+  color: red;
+  font-size: 2rem;
+  opacity: 0.4;
+}
+
+.btnSend {
+  width: 20.8rem;
+  height: 4.7rem;
+
+  /* Primary */
+
+  background: #ff6464;
+  border-radius: 0.2rem;
+  border: #ffffff;
+
+  font-style: normal;
+  font-weight: 500;
+  font-size: 2rem;
+  line-height: 2.9rem;
+
+  color: #ffffff;
+  cursor: pointer;
+  margin-top: 1rem;
+}
+
+.phone {
+  color: #0060b6;
+  text-decoration: none;
+  font-size: 2rem;
+  text-align: center;
+}
+
+.phone:hover {
+  color: #00a0c6;
+  text-decoration: none;
+  cursor: pointer;
+}

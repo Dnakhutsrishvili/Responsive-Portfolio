@@ -1,0 +1,96 @@
+.parent {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.bulk {
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+  align-items: flex-end;
+  position: absolute;
+  width: 3rem;
+  height: 1.8rem;
+  right: 2rem;
+  top: 2rem;
+  gap: 0.9rem;
+}
+
+.bulkLini {
+  border-top: 1.6px solid #21243d;
+
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  width: 3rem;
+  margin: 0;
+}
+
+.bulkX {
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+  align-items: flex-end;
+  position: absolute;
+  width: 3rem;
+  height: 1.8rem;
+  right: 2rem;
+  top: 2rem;
+}
+.close {
+  background: #fff;
+
+  position: absolute;
+  width: 3rem;
+  height: 3rem;
+  right: 2rem;
+  top: 2rem;
+  gap: 0.9rem;
+}
+.close:after {
+  content: "";
+  height: 3rem;
+  border-left: 1.6px solid #21243d;
+  position: absolute;
+  transform: rotate(45deg);
+  left: 1.4rem;
+}
+
+.close:before {
+  content: "";
+  height: 3rem;
+  border-left: 1.6px solid #21243d;
+  position: absolute;
+  transform: rotate(-45deg);
+  left: 1.4rem;
+}
+
+.navbar {
+  position: absolute;
+  display: flex;
+  gap: 3rem;
+  height: 4rem;
+  align-items: center;
+  margin-right: 7rem;
+}
+
+.link {
+  margin-top: 15px;
+  list-style: none;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 2rem;
+  line-height: 2.9rem;
+  text-align: right;
+
+  color: #000000;
+
+  cursor: pointer;
+}
+.link:hover {
+  color: #ff6464;
+}
+
+@media only screen and (min-width: 992px) {
+  .close {
+    display: none;
+  }
+}

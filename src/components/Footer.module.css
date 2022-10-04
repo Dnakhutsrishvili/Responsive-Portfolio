@@ -1,0 +1,36 @@
+.footerParent {
+  margin-top: 3.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.logos {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 5rem;
+}
+
+.logo {
+  height: 3rem;
+  width: 3rem;
+
+  border-radius: 0px;
+}
+
+.copyright {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.4rem;
+  line-height: 21px;
+  /* identical to box height */
+
+  text-align: center;
+
+  /* Dark */
+
+  color: #21243d;
+}

@@ -1,0 +1,38 @@
+.img {
+  height: 23rem;
+  width: 33.9rem;
+  border: 1px solid red;
+  border-radius: 6px;
+  cursor: pointer;
+}
+.parent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.link {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  /* identical to box height */
+
+  /* Light */
+  margin: 0;
+  letter-spacing: 0.2rem;
+
+  color: #8695a4;
+}
+
+.descr {
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 2.6rem;
+
+  /* Dark Color */
+
+  width: 26rem;
+  color: #21243d;
+  text-align: center;
+}

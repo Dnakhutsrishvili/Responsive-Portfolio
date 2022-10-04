@@ -1,0 +1,92 @@
+.img {
+  position: relative;
+  width: 14.4rem;
+  height: 18rem;
+
+  border-radius: 20%;
+  top: 10rem;
+}
+.section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 3.2rem;
+  line-height: 4rem;
+  /* or 125% */
+
+  text-align: center;
+
+  /* Dark Color */
+
+  color: #21243d;
+  margin-top: 13rem;
+}
+
+.paragraph {
+  width: 32.8rem;
+  height: 9.6rem;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  text-align: center;
+
+  /* Dark Color */
+
+  color: #21243d;
+}
+
+.btn {
+  width: 20.8rem;
+  height: 4.7rem;
+
+  /* Primary */
+
+  background: #ff6464;
+  border-radius: 0.2rem;
+  border: #ffffff;
+
+  font-style: normal;
+  font-weight: 500;
+  font-size: 2rem;
+  line-height: 2.9rem;
+
+  color: #ffffff;
+  cursor: pointer;
+  margin-top: 10rem;
+}
+
+.cont {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.contsec {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media only screen and (min-width: 992px) {
+  .cont {
+    flex-direction: row;
+    gap: 2rem;
+    margin-bottom: 4rem;
+  }
+  .contsec {
+  }
+
+  .img {
+    top: 4rem;
+  }
+  .title {
+    margin-top: 10rem;
+  }
+}
